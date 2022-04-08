@@ -50,52 +50,6 @@ const { NotImplementedError } = require('../extensions/index.js');
 	}
 	return objFunc.repeatTimes();
 }
-//  function repeater(str, options) {
-// 	const objArr = options;
-// 	let resStr = '';
-// 	const objFunc = {
-// 		repeatTimes(n) {
-// 			let i = 1;
-// 			let a = objArr.repeatTimes;
-// 			if (a === undefined) {
-// 				resStr += `${str}`;
-// 				this.addition()
-// 			} else while (i <= objArr.repeatTimes) {
-// 				if (!(Number.isInteger(a)) || a === undefined) {
-// 					return;
-// 				} resStr += `${str}`;
-// 				this.addition()
-// 				if (i !== objArr.repeatTimes) this.separator();
-// 				i++;
-// 			}
-// 		},
-// 		addition() {
-// 			let i = 1;
-// 			let a = objArr.addition
-// 			if (objArr.additionRepeatTimes === undefined) {
-// 				resStr += `${a !== undefined ? a : ''}`;
-// 			} else while (i <= objArr.additionRepeatTimes) {
-// 			resStr += `${a}`;
-// 			if (i !== objArr.additionRepeatTimes) this.additionSeparator();
-// 			i++;
-// 			}
-// 		},
-// 		separator() {
-// 			let a = objArr.separator;
-// 			if (a === undefined) {
-// 				resStr += '+';
-// 			} else resStr += `${a}`
-// 		},
-// 		additionSeparator() {
-// 			let a = objArr.additionSeparator;
-// 			if (a === undefined) {
-// 				resStr += '|';
-// 			} else resStr += `${a}`
-// 		}
-// 	}
-// 	objFunc.repeatTimes(objArr.repeatTimes)
-// 	return resStr;
-// }
 
 module.exports = {
   repeater
